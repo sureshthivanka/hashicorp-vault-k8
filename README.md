@@ -29,10 +29,10 @@ git clone --branch v0.3.3 https://github.com/hashicorp/vault-helm.git
 
 ## Configure a GCP k8s cluster
 
-I am going to assume you have a GCP cluster called `vault-cluster` up and running already. Use this command to connect to it.
+I assume that you have installed minikube in your machinea and up and running already. Use below command to check the status of the minikube.
 
 ```
-gcloud container clusters get-credentials vault-cluster --zone us-central1-a --project sidecar-injection
+minikube status
 ```
 
 Check to make sure you have nodes ready with `kubectl get nodes`. Also, in a second term window configure a `kubectl get pods` loop like so.
