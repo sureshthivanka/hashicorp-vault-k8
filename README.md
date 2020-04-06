@@ -17,8 +17,8 @@ Reference Links:
 ## Clone this demo repo
 
 ```
-git clone https://github.com/jweissig/vault-k8s-sidecar-demo
-cd vault-k8s-sidecar-demo
+git clone https://github.com/sureshthivanka/hashicorp-vault-k8.git
+cd hashicorp-vault-k8
 ```
 
 ## Clone vault-helm
