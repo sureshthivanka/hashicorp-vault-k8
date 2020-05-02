@@ -27,9 +27,9 @@ cd hashicorp-vault-k8
 git clone --branch v0.3.3 https://github.com/hashicorp/vault-helm.git
 ```
 
-## Configure a GCP k8s cluster
+## Configure a k8s cluster or minikube to try out this new feature
 
-I assume that you have installed minikube in your machinea and up and running already. Use below command to check the status of the minikube.
+I assume that you have installed minikube in your machine and up and running already. Use below command to check the status of the minikube.
 
 ```
 minikube status
